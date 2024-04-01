@@ -8,7 +8,8 @@ login = ''
 password = ''
 
 api = ApiFirst(url)
-json = api.get()
+json, status = api.get()
+print(status)
 print(json)
 
 if code start '2' - you get answer
