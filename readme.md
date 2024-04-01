@@ -7,7 +7,7 @@ url_auth = ''
 login = ''
 password = ''
 
-api = ApiFirst(url)
+api = ApiFirst(url, url_auth, login, password)
 json, status = api.get()
 print(status)
 print(json)
